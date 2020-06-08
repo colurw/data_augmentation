@@ -6,9 +6,7 @@ NB: .jpg != .JPG, pythonwise.
 
 Tiling functions assume all photos in the batch have the same dimensions.  Tiling differently sized images will result in odd-sized tiles at two edges, whilst the .xml tiling code will need updating to parse dimensions of the parent file from inside the file itself.
 
-Tiles are numbered:  2_0   2_1   2_2
-                     1_0   1_1   1_2
-                     0_0   0_1   0_2   ... 
+Tiles without objects can be auto-removed from the dataset.
 
 Mirror and rotate functions are size agnostic.
 
