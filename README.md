@@ -4,7 +4,7 @@ Should also work for other image types, if the .JPG tags are replaced.
 
 NB: .jpg != .JPG, pythonwise.
 
-Tiling functions assume all photos in the batch have the same dimensions.  Tiling differently sized images will result in odd-sized tiles at two edges, whilst the .xml tiling code will need updating to parse the relevant from inside the file itself.
+Tiling functions assume all photos in the batch have the same dimensions.  Tiling differently sized images will result in odd-sized tiles at two edges, whilst the .xml tiling code will need updating to parse the relevant dimensions from inside the parent file.
 
 Tiles without objects can be auto-removed from the dataset.
 
