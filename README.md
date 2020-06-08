@@ -2,7 +2,7 @@ For augmenting a dataset: Tile, mirror and rotate .JPG and Pascal VOC .XML files
 
 Should also work for other image types, if the .JPG tags are replaced.  
 
-NB: .JPG != .jpg, pythonwise.
+NB: .jpg != .JPG, pythonwise.
 
 Tiling functions assume all photos in the batch have the same dimensions.  Tiling differently sized images will result in odd-sized tiles at two edges, whilst the .xml tiling code will need updating to parse dimensions of the parent file from inside the file itself.
 
