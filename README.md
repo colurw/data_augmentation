@@ -10,4 +10,6 @@ Tiles without objects can be auto-removed from the dataset.
 
 Mirror and rotate functions are size agnostic.
 
-Mirroring a 4-fold-symmetrical set of clockwise rotations gives the anticlockwise rotations (For a gven rotation angle). And requires less reworking of the rotation function.
+Mirroring a 4-fold-symmetrical set of clockwise rotations gives the equivalent anti-clockwise rotations. (And requires less reworking of the rotation functions).
+
+Bounding boxes will increase in size to avoid clipping rotated objects, by setting:  circular_objects = False  
