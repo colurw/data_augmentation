@@ -14,7 +14,6 @@ Both tiling functions assume all photos in the batch have the same dimensions.  
 
 Mirror and rotate functions are size agnostic.
 
-Mirroring a 4-fold-symmetrical set of clockwise rotations gives the equivalent anti-clockwise rotations. 
-(And requires less reworking of the rotation functions).
+Mirroring a 4-fold-symmetrical set of clockwise rotations gives the equivalent anti-clockwise rotations, for a given angle.
 
 To increase size of bounding boxes (to avoid clipping edges of rotated objects) use setting:  circular_objects = False  
