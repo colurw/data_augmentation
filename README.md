@@ -4,7 +4,7 @@ Tiles without objects can be auto-removed from the dataset.
 
 A validation dataset can be separated out if necessary.
 
-File pairs should have the same filename, i.e  image_1.JPG, image_1.xml, image_2.JPG, image_2.xml... and be saved in the same folder.
+File pairs should have matching filenames, i.e:  Ball.JPG, Ball.xml, image_25.JPG, image_25.xml... and be saved in the same folder.
 
 Should also work for other image types, if the .JPG tags in the code are replaced.  
 
